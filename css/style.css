@@ -36,7 +36,7 @@ h1 {
 
 .container {
     width: 90%;
-    max-width: 700px;
+    max-width: 600px;
     margin: 40px auto;
     background: rgba(160, 92, 255, 0.06);
     border: 1px solid rgba(160, 92, 255, 0.25);
@@ -44,7 +44,9 @@ h1 {
     border-radius: 15px;
     backdrop-filter: blur(10px);
     font-size: 17px;
-    line-height: 1.6;
+    line-height: 1.7;
+    text-align: center;
+    overflow: visible;  /* 🔥 texto nunca será cortado */
 }
 
 .btn, a.btn {
